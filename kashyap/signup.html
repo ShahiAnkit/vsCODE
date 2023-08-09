@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Signup page</title>
+    <link href="signup.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <!-- <img class="bg" src="bg.jpg" alt="College"> -->
+    <main class="form-signin">
+      <form method="POST" action="signup.php" >
+        <img class="mb-4" src="logo.png" alt="" height="300">
+        <h1 class="h3 mb-3 fw-normal"><b>Enter your details</b></h1>
+
+        <div class="form-floating">
+            <input type="text" name="fname" class="form-control" id="fname" required placeholder="First Name" autocomplete="0">
+            <label for="floatingInput">First Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" name="lname" class="form-control" id="lname" required placeholder="Last Name" autocomplete="0">
+            <label for="floatingInput">Last Name</label>
+          </div>
+
+        <div class="form-floating">
+          <input type="email" name="email" class="form-control" id="username" required placeholder="name@example.com" autocomplete="0">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" name="pass" class="form-control" id="password" required placeholder="Password" autocomplete="0">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" name="conf_pass" class="form-control" id="password" required placeholder="Confirm Password" autocomplete="0">
+            <label for="floatingPassword">Confirm Password</label>
+          </div>
+
+          <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Submit and Log-in</button>
+          <button class="w-100 btn btn-lg btn-primary mt-3" onclick="myFunctionlogin()"  type="submit">Login Page</button>
+        <!-- <button class="w-100 btn btn-lg btn-primary mt-3" onclick="myFunctionlogin()" type="sbmit">Login Page</button> -->
+        <!-- <p class="mt-5 mb-3 text-muted"></p><a href='https://www.viaante.com/'>For more details visit our official - www.viaante.com</a></p> -->
+      </form>
+    </main>
+
+<script src="signup.js"></script>
+    
+
+  </body>
+</html>
