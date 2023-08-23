@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: 23px;
+    margin: auto;
+}
+.container h3,p{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+input ,textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    display: block;
+}
+.btn {
+    color: white;
+    background: green;
+    FONT-SIZE: 15PX;
+    PADDING: 8PX 6PX;
+    BORDER: 2PX SOLID WHITE;
+    BORDER-RADIUS: 10PX;
+    CURSOR: POINTER;
+    display: block;
+    margin: auto;
+    align-items: center;
+
+}
+h3{
+    font-size: 40PX;
+}
+P{
+    font-size: 18PX;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    
+}

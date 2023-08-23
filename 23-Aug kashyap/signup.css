@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 60px;
+  padding: 32px;
+}
+
+body {
+  padding-top: 0;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 25rem;
+  margin: auto;
+}
+/* .bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+
+} */
+input ,textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    display: block;
+}
+w-100 btn btn-lg btn-primary mt-3{
+  color: white;
+  background: rgb(74, 75, 74);
+  FONT-SIZE: 15PX;
+  PADDING: 8PX 6PX;
+  BORDER: 2PX SOLID WHITE;
+  BORDER-RADIUS: 10PX;
+  CURSOR: POINTER;
+  display: block;
+  margin: auto;
+  align-items: center;
+}
