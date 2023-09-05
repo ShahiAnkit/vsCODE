@@ -1,0 +1,1 @@
+Just change the database connection strings inside the BR.php as i have configured for my local DB named "student_details.php" .

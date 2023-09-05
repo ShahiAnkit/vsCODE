@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html,body{
+    overflow-x: hidden;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: 23px;
+    margin: auto;
+    z-index: 10;
+}
+.container h3,p{
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+
+.btn {
+    color: white;
+    background: rgb(74, 75, 74);
+    FONT-SIZE: 15PX;
+    PADDING: 8PX 6PX;
+    BORDER: 2PX SOLID WHITE;
+    BORDER-RADIUS: 10PX;
+    CURSOR: POINTER;
+    display: block;
+    margin: auto;
+    align-items: center;
+
+}
+h3{
+    font-size: 40PX;
+}
+P{
+    font-size: 18PX;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    
+}

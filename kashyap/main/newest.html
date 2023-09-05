@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.container h3,p{
+    text-align: center;
+}
+input{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    display: block;
+
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+.btn {
+    color: white;
+    background: green;
+    FONT-SIZE: 15PX;
+    PADDING: 8PX 6PX;
+    BORDER: 2PX SOLID WHITE;
+    BORDER-RADIUS: 10PX;
+    CURSOR: POINTER;
+    display: block;
+    margin: auto;
+    align-items: center;
+
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+            <form method="POST" action="?>" >
+
+            <input type="text" name="name" id="name" required placeholder="Enter your Name" autocomplete="0">
+
+            <input type="text" name="age" id="age" required placeholder="Enter your Age" autocomplete="0">
+
+            <input type="text" name="gender" id="gender" placeholder="Enter your Gender" autocomplete="0">
+
+            <input type="email" name="email" id="email" required placeholder="Enter your Email" autocomplete="0">
+
+            <input type="number"  name="phone" id="number" required  placeholder="Enter your Phone" autocomplete="0">
+            <button class="btn" type="submit">Submit</button>
+    </div>
+    
+</body>
+</html>
